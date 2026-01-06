@@ -14,7 +14,6 @@ export default defineConfig({
         include: [
             '@codemirror/state',
             '@codemirror/view',
-            '@codemirror/basic-setup',
         ],
     },
     server: {
