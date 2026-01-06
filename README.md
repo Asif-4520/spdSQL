@@ -206,11 +206,5 @@ PR checklist (add to your PR description):
 
 ---
 
-## License & contact
 
-No license file found—please add a `LICENSE` file (e.g., MIT) to indicate how the project may be used.
-
-If you have questions or want to contribute, open an issue or a PR and we will respond. Thanks for helping make this project better! 💜
-
----
 
