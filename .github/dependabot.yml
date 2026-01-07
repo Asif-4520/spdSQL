@@ -25,10 +25,12 @@ updates:
           - "*"
         update-types:
           - "patch"
-    # Separate security updates for immediate attention
-    ignore:
-      - dependency-name: "*"
-        update-types: ["version-update:semver-major"]
+      minor-updates:
+        patterns:
+          - "*"
+        update-types:
+          - "minor"
+    # Major updates are created as individual PRs for careful review
 
   # Enable version updates for GitHub Actions
   - package-ecosystem: "github-actions"
