@@ -19,7 +19,7 @@ jobs:
         with:
           bun-version: latest
 
-      - name: Cache Bun dependencies
+      - name: Cache Bun global cache
         uses: actions/cache@v4
         with:
           path: ~/.bun/install/cache
