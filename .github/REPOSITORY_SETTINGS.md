@@ -174,6 +174,52 @@ Navigate to: **Settings → Actions → General**
 
 ✅ **Allow GitHub Actions to create and approve pull requests**
 
+### Collaborator Permissions
+
+Navigate to: **Settings → Collaborators and teams**
+
+**Security Best Practice:** Minimize collaborator permissions to maintain repository security and control.
+
+#### Recommended Permission Levels
+
+✅ **Repository Owner (Admin):**
+   - Keep Admin access only for repository owner
+   - Full control over all settings and permissions
+
+✅ **External Collaborators:**
+   - **Read** - For viewing only (recommended for most)
+   - **Triage** - Can manage issues/PRs without code access
+   - ❌ **Write** - Avoid granting unless absolutely necessary
+   - ❌ **Maintain** - Avoid granting unless absolutely necessary
+   - ❌ **Admin** - Reserved for repository owner only
+
+#### Steps to Set Collaborator Permissions
+
+1. Navigate to **Settings → Collaborators and teams**
+2. For each existing collaborator:
+   - Click the role dropdown next to their name
+   - Change to **Read** or **Triage** (downgrade from Write/Maintain)
+   - Remove collaborators who no longer need access
+3. For new collaborators:
+   - Add with minimum required permission level
+   - Default to **Read** or **Triage**
+
+#### Permission Level Details
+
+- **Read**: View code, open issues, comment on PRs (safest)
+- **Triage**: Read + manage issues/PRs (good for non-code contributors)
+- **Write**: Triage + push to branches (not recommended - use forks instead)
+- **Maintain**: Write + manage settings (not recommended)
+- **Admin**: Full access (repository owner only)
+
+#### Note on Contribution Model
+
+With proper branch protection:
+- Contributors should **fork** the repository
+- Submit changes via **Pull Requests** from their forks
+- No need for Write access to the main repository
+- Read access is sufficient for most contributors
+
 ---
 
 ## 🎯 Verification Checklist
