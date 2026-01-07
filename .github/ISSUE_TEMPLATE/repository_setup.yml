@@ -1,0 +1,141 @@
+name: Repository Configuration Checklist
+description: Track completion of manual repository configuration steps
+title: "[Setup]: Complete Repository Configuration"
+labels: ["ci", "documentation"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        # Repository Configuration Checklist
+        
+        Use this checklist to track completion of all manual configuration steps required to fully lock down and professionalize the repository.
+        
+        **Reference:** See `.github/REPOSITORY_SETTINGS.md` for detailed instructions.
+
+  - type: checkboxes
+    id: branch-protection
+    attributes:
+      label: Branch Protection Rules (main)
+      description: Configure branch protection for the main branch
+      options:
+        - label: Navigate to Settings → Branches → Add branch protection rule
+        - label: Set branch name pattern to `main`
+        - label: ✅ Enable "Require a pull request before merging"
+        - label: ✅ Set required approvals to 1
+        - label: ✅ Enable "Dismiss stale pull request approvals when new commits are pushed"
+        - label: ✅ Enable "Require review from Code Owners"
+        - label: ✅ Disable "Allow specified actors to bypass required pull requests"
+        - label: ✅ Enable "Require status checks to pass before merging"
+        - label: ✅ Enable "Require branches to be up to date before merging"
+        - label: ✅ Add required status check `Lint`
+        - label: ✅ Add required status check `Type Check`
+        - label: ✅ Add required status check `Build`
+        - label: ✅ Add required status check `Quality Gate`
+        - label: ✅ Add required status check `Validate PR Title`
+        - label: ✅ Add required status check `Validate PR Description`
+        - label: ✅ Enable "Require conversation resolution before merging"
+        - label: ✅ Enable "Require linear history"
+        - label: ✅ Enable "Include administrators" (no bypass)
+        - label: ✅ Set "Restrict who can push to matching branches" to NONE
+        - label: ✅ Disable "Allow force pushes"
+        - label: ✅ Disable "Allow deletions"
+
+  - type: checkboxes
+    id: merge-settings
+    attributes:
+      label: Pull Request Merge Settings
+      description: Configure merge behavior
+      options:
+        - label: Navigate to Settings → General → Pull Requests
+        - label: ✅ Enable "Allow squash merging"
+        - label: ✅ Set default to "Pull request title and description"
+        - label: ❌ Disable "Allow merge commits"
+        - label: ❌ Disable "Allow rebase merging"
+        - label: ✅ Enable "Always suggest updating pull request branches"
+        - label: ✅ Enable "Allow auto-merge"
+        - label: ✅ Enable "Automatically delete head branches"
+
+  - type: checkboxes
+    id: security-settings
+    attributes:
+      label: Security Settings
+      description: Enable security features
+      options:
+        - label: Navigate to Settings → Security → Code security and analysis
+        - label: ✅ Enable "Dependency graph"
+        - label: ✅ Enable "Dependabot alerts"
+        - label: ✅ Enable "Dependabot security updates"
+        - label: ✅ Enable "Dependabot version updates"
+        - label: ✅ Enable "Code scanning" (CodeQL)
+        - label: ✅ Enable "Secret scanning" (if available)
+        - label: ✅ Enable "Push protection" (if available)
+
+  - type: checkboxes
+    id: actions-settings
+    attributes:
+      label: GitHub Actions Settings
+      description: Configure Actions permissions
+      options:
+        - label: Navigate to Settings → Actions → General
+        - label: ✅ Select "Allow all actions and reusable workflows"
+        - label: ✅ Enable "Allow GitHub Actions to create and approve pull requests"
+
+  - type: checkboxes
+    id: labels
+    attributes:
+      label: Repository Labels
+      description: Create standard labels
+      options:
+        - label: Navigate to Settings → Issues → Labels
+        - label: Create type labels (bug, enhancement, documentation, question)
+        - label: Create priority labels (priority critical/high/medium/low)
+        - label: Create status labels (status in-progress/blocked/ready/on-hold)
+        - label: Create area labels (area ui/database/editor/import-export/performance)
+        - label: Create meta labels (good first issue, help wanted, dependencies, automated, security, stale, ci)
+
+  - type: checkboxes
+    id: verification
+    attributes:
+      label: Verification Steps
+      description: Verify configuration is working
+      options:
+        - label: Try pushing directly to main (should fail ❌)
+        - label: Try force pushing to main (should fail ❌)
+        - label: Create a test PR and verify template appears
+        - label: Verify Code Owner is auto-assigned as reviewer
+        - label: Verify all CI workflows run on test PR
+        - label: Verify approval is required before merge
+        - label: Verify only squash merge option is available
+        - label: Merge test PR and verify branch auto-deletes
+        - label: Create test issue and verify templates appear
+        - label: Check Security tab for Dependabot activity
+        - label: Check Actions tab to see workflows running
+
+  - type: checkboxes
+    id: communication
+    attributes:
+      label: Team Communication
+      description: Inform contributors about changes
+      options:
+        - label: Announce new contribution guidelines to team
+        - label: Share link to CONTRIBUTING.md
+        - label: Point contributors to commit conventions guide
+        - label: Explain new PR requirements
+        - label: Set expectations for review process
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: Any issues encountered or additional notes
+      placeholder: Document any problems or deviations from the standard setup...
+
+  - type: textarea
+    id: completion
+    attributes:
+      label: Completion Date and Sign-off
+      description: When all steps are complete, record the date and who verified
+      placeholder: |
+        Completed on: YYYY-MM-DD
+        Verified by: @username
+        All settings applied and verified successfully ✅
