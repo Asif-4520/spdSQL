@@ -30,10 +30,6 @@ main
 ✅ **Require status checks to pass before merging**
    - ✅ Require branches to be up to date before merging
    - **Required status checks:**
-     - `Lint`
-     - `Type Check`
-     - `Build`
-     - `Quality Gate`
      - `Validate PR Title`
      - `Validate PR Description`
 

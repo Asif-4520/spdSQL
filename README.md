@@ -175,7 +175,7 @@ We welcome contributions of all sizes — documentation, small bug fixes, UX imp
 
 6. **Submit a PR:**
    - **Main branch is protected** - all changes require PRs
-   - PRs must pass CI checks (lint, build, type-check)
+   - PRs must pass validation checks (PR format)
    - At least 1 approval required from maintainers
    - PRs are squash merged - ensure PR title follows conventions
    - All review conversations must be resolved
@@ -187,7 +187,7 @@ We welcome contributions of all sizes — documentation, small bug fixes, UX imp
 - ❌ No force pushes
 - ❌ No bypass for anyone (including admins)
 - ✅ All changes via Pull Requests only
-- ✅ Requires approvals and passing CI checks
+- ✅ Requires approvals and validation checks
 - ✅ Squash merge only (clean commit history)
 
 ### PR Requirements
@@ -195,7 +195,7 @@ We welcome contributions of all sizes — documentation, small bug fixes, UX imp
 All PRs must:
 - Follow [Conventional Commits](https://www.conventionalcommits.org/) for PR title
 - Include meaningful description (minimum 20 characters)
-- Pass all CI checks (lint, build, type-check)
+- Pass validation checks (PR format)
 - Receive at least 1 approval
 - Resolve all review conversations
 - Have up-to-date branch with `main`
@@ -217,8 +217,8 @@ This repository maintains strict professional standards:
 ### 📋 Code Quality
 - ESLint for code linting
 - TypeScript for type safety
-- Automated CI checks on all PRs
-- Code review required before merge
+- Manual code review required before merge
+- PR format validation automated
 
 ### 📝 Documentation
 - Comprehensive contribution guidelines
