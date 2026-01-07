@@ -135,6 +135,8 @@ This structure is intentionally simple—add new features under `src/` grouped b
 
 We welcome contributions of all sizes — documentation, small bug fixes, UX improvements, tests, or new features!
 
+**🔒 Important:** This repository has branch protection enabled. All contributions must be made through Pull Requests, and only the repository owner can approve and merge PRs. See [CONTRIBUTING.md](CONTRIBUTING.md) for detailed guidelines.
+
 ### Report issues
 
 - Click the repository's **Issues** tab and create a new issue with a clear title and steps to reproduce.
@@ -173,15 +175,20 @@ npm run build  # runs tsc -b
 
 ### Open a Pull Request (PR)
 
-- Push your branch to your fork and open a PR against the `main` (or `master`) branch of this repo.
+- Push your branch to your fork and open a PR against the `main` branch of this repo.
 - In the PR description, reference the issue (if any) and explain what you changed and why.
 - Add screenshots or GIFs for visual changes.
+- **Note:** Only `@Asif-4520` (repository owner) can approve and merge your PR.
 
 PR checklist (add to your PR description):
 - [ ] Build passes locally (`npm run build`)
 - [ ] No ESLint errors (`npm run lint`)
 - [ ] New code covered by tests (recommended)
 - [ ] Documentation updated (README, or inline docs)
+- [ ] PR title is descriptive (min 10 characters)
+- [ ] PR description is detailed (min 20 characters)
+
+For complete contribution guidelines, see [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ---
 
@@ -203,6 +210,37 @@ PR checklist (add to your PR description):
 - Add more demo datasets covering common use cases
 - Improve CodeMirror autocompletion for dataset columns
 - Add CI (GitHub Actions) to run lint, type-check, build, and tests
+
+---
+
+## Branch Protection & Repository Security 🔒
+
+This repository implements strict branch protection rules to ensure code quality and security:
+
+### Key Protection Features
+
+- ✅ **Direct pushes to `main` are blocked** - All changes must go through Pull Requests
+- ✅ **Only repository owner can merge PRs** - Ensures proper code review and quality control
+- ✅ **CODEOWNERS enforcement** - All files require owner approval via `.github/CODEOWNERS`
+- ✅ **Automated PR validation** - GitHub Actions workflows check PR requirements
+- ✅ **Build and lint checks** - All PRs must pass linting and build before merge consideration
+
+### For Contributors
+
+- 🔐 Collaborators can create PRs but **cannot merge them** (even with full permissions)
+- 📝 All PRs must have descriptive titles (min 10 chars) and descriptions (min 20 chars)
+- ✅ PRs must pass automated checks (lint, build, validation)
+- ⏳ Wait for owner (`@Asif-4520`) approval and merge
+
+### Configuration Details
+
+For complete branch protection setup instructions, see [`.github/BRANCH_PROTECTION.md`](.github/BRANCH_PROTECTION.md)
+
+This includes:
+- Step-by-step GitHub settings configuration
+- Required branch protection rules
+- CODEOWNERS file explanation
+- Security recommendations
 
 ---
 

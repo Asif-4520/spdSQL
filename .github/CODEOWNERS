@@ -1,0 +1,12 @@
+# This file defines code ownership for the repository
+# Only the repository owner can approve and merge pull requests
+
+# Global rule: All files require approval from the repository owner
+* @Asif-4520
+
+# Specific protection for critical files
+/.github/ @Asif-4520
+/package.json @Asif-4520
+/package-lock.json @Asif-4520
+/vite.config.ts @Asif-4520
+/tsconfig*.json @Asif-4520

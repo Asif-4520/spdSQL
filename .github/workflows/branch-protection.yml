@@ -1,0 +1,122 @@
+name: Branch Protection Enforcement
+
+# This workflow helps enforce branch protection rules
+# It runs checks on pull requests to ensure they meet requirements
+
+on:
+  pull_request:
+    branches:
+      - main
+    types: [opened, synchronize, reopened, edited]
+
+permissions:
+  contents: read
+  pull-requests: write
+  issues: write
+
+jobs:
+  pr-validation:
+    name: Validate Pull Request
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Check PR Title
+        run: |
+          PR_TITLE="${{ github.event.pull_request.title }}"
+          if [ ${#PR_TITLE} -lt 10 ]; then
+            echo "❌ PR title is too short. Please provide a descriptive title (at least 10 characters)."
+            exit 1
+          fi
+          echo "✅ PR title meets length requirements"
+
+      - name: Check PR Description
+        run: |
+          PR_BODY="${{ github.event.pull_request.body }}"
+          if [ ${#PR_BODY} -lt 20 ]; then
+            echo "❌ PR description is too short or missing. Please provide details about your changes."
+            exit 1
+          fi
+          echo "✅ PR description provided"
+
+      - name: Check for Owner Approval
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const { data: reviews } = await github.rest.pulls.listReviews({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              pull_number: context.issue.number,
+            });
+
+            const ownerLogin = 'Asif-4520';
+            const ownerApproval = reviews.find(
+              review => review.user.login === ownerLogin && review.state === 'APPROVED'
+            );
+
+            if (!ownerApproval) {
+              core.warning(`⚠️  This PR requires approval from @${ownerLogin} before it can be merged.`);
+            } else {
+              core.info(`✅ PR has been approved by @${ownerLogin}`);
+            }
+
+      - name: PR Validation Summary
+        run: |
+          echo "### Pull Request Validation ✅" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "This PR has passed basic validation checks." >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "**Important Reminders:**" >> $GITHUB_STEP_SUMMARY
+          echo "- ✅ PR title and description are adequate" >> $GITHUB_STEP_SUMMARY
+          echo "- ⚠️  Only @Asif-4520 can approve and merge this PR" >> $GITHUB_STEP_SUMMARY
+          echo "- 🔒 Direct pushes to \`main\` are blocked by branch protection" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "Please wait for repository owner approval before this PR can be merged." >> $GITHUB_STEP_SUMMARY
+
+  lint-check:
+    name: Lint Check
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run linter
+        run: npm run lint
+
+  build-check:
+    name: Build Check
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build project
+        run: npm run build
+
+      - name: Build Summary
+        run: |
+          echo "### Build Successful ✅" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "The project builds successfully with your changes." >> $GITHUB_STEP_SUMMARY
