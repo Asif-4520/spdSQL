@@ -1,0 +1,79 @@
+name: Commit Message Validation
+
+on:
+  pull_request:
+    branches: [main]
+    types: [opened, synchronize, reopened]
+
+permissions:
+  contents: read
+  pull-requests: write
+
+jobs:
+  validate-commits:
+    name: Validate Commit Messages
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Validate all commits in PR
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{secrets.GITHUB_TOKEN}}
+          script: |
+            const { owner, repo } = context.repo;
+            const pr_number = context.payload.pull_request.number;
+            
+            // Get all commits in the PR
+            const { data: commits } = await github.rest.pulls.listCommits({
+              owner,
+              repo,
+              pull_number: pr_number,
+            });
+            
+            // Conventional commit pattern
+            const conventionalCommitPattern = /^(feat|fix|docs|style|refactor|perf|test|build|ci|chore|revert)(\(.+\))?: .{1,100}/;
+            
+            let hasInvalidCommit = false;
+            const invalidCommits = [];
+            
+            for (const commit of commits) {
+              const message = commit.commit.message.split('\n')[0]; // Get first line
+              
+              if (!conventionalCommitPattern.test(message)) {
+                hasInvalidCommit = true;
+                invalidCommits.push({
+                  sha: commit.sha.substring(0, 7),
+                  message: message
+                });
+              }
+            }
+            
+            if (hasInvalidCommit) {
+              const errorMessage = `
+            ❌ **Invalid commit messages detected**
+            
+            The following commits don't follow the Conventional Commits specification:
+            
+            ${invalidCommits.map(c => `- \`${c.sha}\`: ${c.message}`).join('\n')}
+            
+            **Required format:** \`<type>(<scope>): <description>\`
+            
+            **Allowed types:** feat, fix, docs, style, refactor, perf, test, build, ci, chore, revert
+            
+            **Examples:**
+            - \`feat: add SQL query autocomplete\`
+            - \`fix(editor): resolve syntax highlighting issue\`
+            - \`docs: update contributing guidelines\`
+            
+            **Note:** Since this PR will be squash merged, the final commit message will be based on the PR title, which must follow these conventions.
+            `;
+              
+              core.warning(errorMessage);
+              console.log('⚠️ Commit messages should follow Conventional Commits, but this is not blocking since squash merge is enforced.');
+            } else {
+              console.log('✅ All commit messages follow Conventional Commits specification');
+            }

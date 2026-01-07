@@ -1,0 +1,20 @@
+# SQLio Code Owners
+
+# Global owners - will be requested for review on all PRs
+* @Asif-4520
+
+# Component-specific owners
+/src/lib/DB/ @Asif-4520
+/src/components/ @Asif-4520
+/.github/ @Asif-4520
+
+# Documentation
+*.md @Asif-4520
+/docs/ @Asif-4520
+
+# Configuration files
+*.json @Asif-4520
+*.config.* @Asif-4520
+
+# CI/CD workflows
+/.github/workflows/ @Asif-4520

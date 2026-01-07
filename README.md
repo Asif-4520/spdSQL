@@ -135,53 +135,102 @@ This structure is intentionally simple—add new features under `src/` grouped b
 
 We welcome contributions of all sizes — documentation, small bug fixes, UX improvements, tests, or new features!
 
-### Report issues
+**⚠️ Important:** This repository follows strict quality standards and contribution guidelines. Please read our [Contributing Guide](CONTRIBUTING.md) before submitting PRs.
 
-- Click the repository's **Issues** tab and create a new issue with a clear title and steps to reproduce.
-- Label suggestions: `bug`, `enhancement`, `good first issue`.
+### Quick Start
 
-### Pick an issue
+1. **Read the guidelines:**
+   - 📋 [Contributing Guide](CONTRIBUTING.md) - Complete contribution workflow
+   - 💬 [Commit Conventions](.github/COMMIT_CONVENTIONS.md) - How to write commit messages
+   - 🔒 [Security Policy](SECURITY.md) - How to report security issues
 
-- Look for issues marked `good first issue` or `help wanted`.
-- If you want to work on an issue, comment you are taking it (to avoid duplicate work).
+2. **Report issues:**
+   - Use issue templates in the **Issues** tab
+   - Choose: Bug Report, Feature Request, or Documentation
+   - Provide clear title and detailed description
 
-### Make changes locally
+3. **Pick an issue:**
+   - Look for `good first issue` or `help wanted` labels
+   - Comment on the issue to claim it
 
-1. Fork the repo and clone your fork
-2. Create a topic branch named like `feat/<short-description>` or `fix/<short-description>`
+4. **Make changes:**
+   ```bash
+   # Fork and clone the repository
+   git clone https://github.com/YOUR-USERNAME/SQLio.git
+   cd SQLio
+   
+   # Create a feature branch
+   git checkout -b feat/your-feature-name
+   
+   # Install dependencies and start development
+   npm install
+   npm run dev
+   ```
 
-```bash
-git checkout -b feat/add-demo-dataset
-```
+5. **Follow conventions:**
+   - Use conventional commit format: `feat: add new feature`
+   - Run `npm run lint` before committing
+   - Build with `npm run build` to check for errors
+   - Follow the PR template when opening pull requests
 
-3. Install dependencies and run the dev server
+6. **Submit a PR:**
+   - **Main branch is protected** - all changes require PRs
+   - PRs must pass CI checks (lint, build, type-check)
+   - At least 1 approval required from maintainers
+   - PRs are squash merged - ensure PR title follows conventions
+   - All review conversations must be resolved
 
-```bash
-npm install
-npm run dev
-```
+### Branch Protection Rules
 
-4. Implement code and add tests where appropriate.
-5. Run lint and ensure TypeScript passes:
+🔒 The `main` branch is fully protected:
+- ❌ No direct pushes
+- ❌ No force pushes
+- ❌ No bypass for anyone (including admins)
+- ✅ All changes via Pull Requests only
+- ✅ Requires approvals and passing CI checks
+- ✅ Squash merge only (clean commit history)
 
-```bash
-npm run lint
-npm run build  # runs tsc -b
-```
+### PR Requirements
 
-6. Commit changes with clear messages (e.g., `feat: add demo dataset and import support`).
+All PRs must:
+- Follow [Conventional Commits](https://www.conventionalcommits.org/) for PR title
+- Include meaningful description (minimum 20 characters)
+- Pass all CI checks (lint, build, type-check)
+- Receive at least 1 approval
+- Resolve all review conversations
+- Have up-to-date branch with `main`
 
-### Open a Pull Request (PR)
+See [CONTRIBUTING.md](CONTRIBUTING.md) for complete details.
 
-- Push your branch to your fork and open a PR against the `main` (or `master`) branch of this repo.
-- In the PR description, reference the issue (if any) and explain what you changed and why.
-- Add screenshots or GIFs for visual changes.
+---
 
-PR checklist (add to your PR description):
-- [ ] Build passes locally (`npm run build`)
-- [ ] No ESLint errors (`npm run lint`)
-- [ ] New code covered by tests (recommended)
-- [ ] Documentation updated (README, or inline docs)
+## Repository Standards & Quality 🏆
+
+This repository maintains strict professional standards:
+
+### 🔒 Security
+- [Security Policy](SECURITY.md) for reporting vulnerabilities
+- Automated dependency updates via Dependabot
+- CodeQL security scanning on all PRs
+- Secret scanning and push protection enabled
+
+### 📋 Code Quality
+- ESLint for code linting
+- TypeScript for type safety
+- Automated CI checks on all PRs
+- Code review required before merge
+
+### 📝 Documentation
+- Comprehensive contribution guidelines
+- Issue and PR templates
+- Commit message conventions
+- Code owner assignments
+
+### 🤖 Automation
+- Automated dependency updates
+- Stale issue/PR management
+- CI/CD with GitHub Actions
+- Automated branch cleanup
 
 ---
 
