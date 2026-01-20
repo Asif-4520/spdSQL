@@ -1,0 +1,51 @@
+customer_id,name,email,city,country,membership_level,joined_at
+1,John Smith,john.smith@email.com,New York,USA,gold,2024-01-15
+2,Emma Wilson,emma.wilson@email.com,London,UK,silver,2024-02-20
+3,Michael Brown,michael.brown@email.com,Toronto,Canada,platinum,2023-12-10
+4,Sophia Garcia,sophia.garcia@email.com,Madrid,Spain,bronze,2024-03-05
+5,William Davis,william.davis@email.com,Sydney,Australia,gold,2024-01-25
+6,Olivia Martinez,olivia.martinez@email.com,Paris,France,silver,2024-02-14
+7,James Anderson,james.anderson@email.com,Berlin,Germany,bronze,2024-04-01
+8,Isabella Taylor,isabella.taylor@email.com,Tokyo,Japan,platinum,2023-11-20
+9,Benjamin Thomas,benjamin.thomas@email.com,Los Angeles,USA,gold,2024-01-30
+10,Charlotte Lee,charlotte.lee@email.com,Singapore,Singapore,silver,2024-03-10
+11,Liam Johnson,liam.johnson@email.com,Chicago,USA,platinum,2024-05-15
+12,Amelia White,amelia.white@email.com,Manchester,UK,gold,2024-04-22
+13,Noah Harris,noah.harris@email.com,Vancouver,Canada,silver,2024-06-08
+14,Ava Martin,ava.martin@email.com,Barcelona,Spain,bronze,2024-05-30
+15,Ethan Thompson,ethan.thompson@email.com,Melbourne,Australia,platinum,2024-03-18
+16,Mia Robinson,mia.robinson@email.com,Lyon,France,gold,2024-07-12
+17,Lucas Walker,lucas.walker@email.com,Munich,Germany,silver,2024-06-25
+18,Harper Hall,harper.hall@email.com,Osaka,Japan,bronze,2024-08-05
+19,Alexander Allen,alexander.allen@email.com,San Francisco,USA,platinum,2024-07-20
+20,Evelyn Young,evelyn.young@email.com,Hong Kong,Hong Kong,gold,2024-08-15
+21,Daniel King,daniel.king@email.com,Boston,USA,silver,2024-09-01
+22,Abigail Wright,abigail.wright@email.com,Dublin,Ireland,bronze,2024-08-28
+23,Matthew Lopez,matthew.lopez@email.com,Mexico City,Mexico,gold,2024-09-10
+24,Emily Hill,emily.hill@email.com,Amsterdam,Netherlands,platinum,2024-09-22
+25,Logan Scott,logan.scott@email.com,Stockholm,Sweden,silver,2024-10-05
+26,Sofia Green,sofia.green@email.com,Rome,Italy,bronze,2024-10-12
+27,Jackson Adams,jackson.adams@email.com,Seoul,South Korea,gold,2024-10-20
+28,Aria Baker,aria.baker@email.com,Dubai,UAE,platinum,2024-11-03
+29,Sebastian Nelson,sebastian.nelson@email.com,Miami,USA,silver,2024-11-15
+30,Grace Carter,grace.carter@email.com,Brussels,Belgium,gold,2024-11-28
+31,Aiden Mitchell,aiden.mitchell@email.com,Vienna,Austria,bronze,2024-12-05
+32,Chloe Perez,chloe.perez@email.com,Lisbon,Portugal,platinum,2024-12-18
+33,Jack Roberts,jack.roberts@email.com,Copenhagen,Denmark,gold,2025-01-08
+34,Lily Turner,lily.turner@email.com,Warsaw,Poland,silver,2025-01-22
+35,Henry Phillips,henry.phillips@email.com,Athens,Greece,bronze,2025-02-03
+36,Zoe Campbell,zoe.campbell@email.com,Prague,Czech Republic,gold,2025-02-14
+37,Owen Parker,owen.parker@email.com,Budapest,Hungary,platinum,2025-03-01
+38,Luna Evans,luna.evans@email.com,Zurich,Switzerland,silver,2025-03-18
+39,Wyatt Edwards,wyatt.edwards@email.com,Oslo,Norway,gold,2025-04-05
+40,Scarlett Collins,scarlett.collins@email.com,Helsinki,Finland,bronze,2025-04-20
+41,Leo Stewart,leo.stewart@email.com,Auckland,New Zealand,platinum,2025-05-10
+42,Bella Sanchez,bella.sanchez@email.com,Buenos Aires,Argentina,gold,2025-05-25
+43,Elijah Morris,elijah.morris@email.com,Santiago,Chile,silver,2025-06-08
+44,Stella Rogers,stella.rogers@email.com,Lima,Peru,bronze,2025-06-22
+45,Oliver Reed,oliver.reed@email.com,Bogota,Colombia,gold,2025-07-05
+46,Hazel Cook,hazel.cook@email.com,Montreal,Canada,platinum,2025-07-18
+47,Mason Morgan,mason.morgan@email.com,Seattle,USA,silver,2025-08-02
+48,Violet Bell,violet.bell@email.com,Portland,USA,gold,2025-08-15
+49,Grayson Murphy,grayson.murphy@email.com,Austin,USA,bronze,2025-09-01
+50,Aurora Bailey,aurora.bailey@email.com,Denver,USA,platinum,2025-09-20

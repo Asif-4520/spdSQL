@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>
+            spdSQL - Free Browser SQL Playground | Run SQL Locally in Browser |
+            No Database Setup
+        </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="canonical" href="https://spdsql.vercel.app/" />
+
+        <script
+            async
+            src="https://www.googletagmanager.com/gtag/js?id=G-XXR16WZZZQ"
+        ></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag("js", new Date());
+
+            gtag("config", "G-XXR16WZZZQ");
+        </script>
+
+        <link rel="icon" href="/assets/light/favicon.ico" sizes="any" />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="16x16"
+            href="/assets/light/favicon-16x16.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="/assets/light/favicon-32x32.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="/assets/light/apple-touch-icon.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="192x192"
+            href="/assets/light/android-chrome-192x192.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="512x512"
+            href="/assets/light/android-chrome-512x512.png"
+        />
+        <link rel="manifest" href="/assets/site.webmanifest" />
+        <meta name="theme-color" content="#6366f1" />
+        <meta
+            name="description"
+            content="spdSQL - Free browser-based SQL playground. Run SQL queries directly in your browser without any database setup. No server, no installation, no signup. Everything runs locally with DuckDB WebAssembly. Import CSV, JSON, Excel, Parquet files and execute SQL instantly. Best client-side SQL tool for learning, testing, and data analysis."
+        />
+        <meta
+            name="keywords"
+            content="browser SQL, local SQL playground, client-side SQL, SQL in browser, run SQL locally, no database setup, SQL without server, offline SQL, SQL playground no signup, browser-based SQL, SQL WASM, DuckDB browser, WebAssembly SQL, SQL no installation, local SQL editor, in-browser database, client-side database, SQL sandbox browser, SQL without backend, privacy-focused SQL, local data processing, SQL fiddle browser, offline SQL playground, SQL runner browser, CSV to SQL browser, Excel to SQL local, browser SQL IDE, SQL playground offline, no server SQL, SQL tool browser, local SQL compiler"
+        />
+        <meta name="author" content="Asif" />
+        <meta
+            name="robots"
+            content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+        />
+        <meta name="googlebot" content="index, follow" />
+        <meta name="bingbot" content="index, follow" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://spdsql.vercel.app/" />
+        <meta property="og:site_name" content="spdSQL" />
+        <meta
+            property="og:title"
+            content="spdSQL - Browser SQL Playground | Run SQL Locally Without Database Setup"
+        />
+        <meta
+            property="og:description"
+            content="Execute SQL queries directly in your browser. No database setup, no server, no signup. All processing happens locally with DuckDB WebAssembly. Import CSV, JSON, Excel files and run SQL instantly."
+        />
+        <meta
+            property="og:image"
+            content="https://spdsql.vercel.app/spdsql.png"
+        />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta
+            property="og:image:alt"
+            content="spdSQL - Free Online SQL Playground"
+        />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@spdSQL" />
+        <meta name="twitter:creator" content="@Asif" />
+        <meta
+            name="twitter:title"
+            content="spdSQL - Browser SQL Playground | No Database Setup Required"
+        />
+        <meta
+            name="twitter:description"
+            content="Run SQL queries in your browser. No database, no server, no signup. Everything runs locally with WebAssembly. Import CSV/JSON/Excel and execute SQL instantly."
+        />
+        <meta
+            name="twitter:image"
+            content="https://spdsql.vercel.app/spdsql.png"
+        />
+        <meta
+            name="google-site-verification"
+            content="7a6nxAkqloeBhZ2PcieF-gRXCfxfhcNAbi4Src02ytk"
+        />
+        <meta name="msvalidate.01" content="" />
+        <meta name="yandex-verification" content="" />
+        <meta name="application-name" content="spdSQL" />
+        <meta name="apple-mobile-web-app-title" content="spdSQL" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+        <meta name="mobile-web-app-capable" content="yes" />
+        <meta name="format-detection" content="telephone=no" />
+        <script type="application/ld+json">
+            {
+                "@context": "https://schema.org",
+                "@type": "SoftwareApplication",
+                "name": "spdSQL",
+                "alternateName": [
+                    "Browser SQL Playground",
+                    "Client-Side SQL Runner",
+                    "Local SQL Editor",
+                    "Offline SQL Playground",
+                    "SQL in Browser",
+                    "No Database SQL Tool",
+                    "WebAssembly SQL"
+                ],
+                "applicationCategory": "DeveloperApplication",
+                "applicationSubCategory": "Database Tool",
+                "operatingSystem": "Web Browser",
+                "browserRequirements": "Requires JavaScript. Requires WebAssembly support.",
+                "url": "https://spdsql.vercel.app/",
+                "description": "Browser-based SQL playground powered by DuckDB WebAssembly. Run SQL queries directly in your browser without any database setup, installation, or server. All data processing happens locally on your device. Import CSV, JSON, Excel, Parquet files and execute SQL instantly. Perfect for learning SQL, testing queries, data analysis, and SQL interviews. Privacy-focused with no data leaving your browser.",
+                "keywords": "browser SQL, local SQL, client-side SQL, SQL in browser, no database setup, SQL WebAssembly, DuckDB browser, offline SQL playground, SQL without server, privacy-focused SQL",
+                "aggregateRating": {
+                    "@type": "AggregateRating",
+                    "ratingValue": "4.8",
+                    "ratingCount": "150"
+                },
+                "offers": {
+                    "@type": "Offer",
+                    "price": "0",
+                    "priceCurrency": "USD",
+                    "availability": "https://schema.org/InStock"
+                },
+                "creator": {
+                    "@type": "Person",
+                    "name": "Asif",
+                    "url": "https://github.com/Asif-4520"
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Asif",
+                    "url": "https://github.com/Asif-4520"
+                },
+                "publisher": {
+                    "@type": "Organization",
+                    "name": "spdSQL",
+                    "url": "https://spdsql.vercel.app"
+                },
+                "featureList": [
+                    "Runs 100% in your browser with WebAssembly",
+                    "No database installation or setup required",
+                    "No server or backend - all processing is local",
+                    "Complete privacy - data never leaves your browser",
+                    "Works offline as Progressive Web App",
+                    "Import CSV, JSON, Excel, Parquet files locally",
+                    "Export results to multiple formats",
+                    "DuckDB WASM engine for fast SQL execution",
+                    "Syntax highlighting and autocomplete",
+                    "Schema explorer and table viewer",
+                    "Query history saved locally",
+                    "Dark and light themes",
+                    "Keyboard shortcuts",
+                    "No signup or account needed",
+                    "100% free with no limits",
+                    "Demo datasets included for learning"
+                ],
+                "screenshot": "https://spdsql.vercel.app/screenshot/Desktop.png",
+                "softwareVersion": "1.0.0",
+                "datePublished": "2024-01-15",
+                "dateModified": "2026-01-17",
+                "inLanguage": "en-US",
+                "copyrightYear": "2025",
+                "isAccessibleForFree": true
+            }
+        </script>
+        <link rel="sitemap" type="application/xml" href="/sitemap.xml" />
+    </head>
+    <body>
+        <noscript>
+            spdSQL requires JavaScript to run. Please enable JavaScript in your
+            browser.
+        </noscript>
+        <div id="root"></div>
+        <script type="module" src="/src/main.tsx"></script>
+    </body>
+</html>

@@ -1,0 +1,56 @@
+﻿post_id,user_id,category_id,title,content,likes_count,shares_count,views_count,published_at
+1,1,6,Getting Started with TypeScript,TypeScript has revolutionized how we write JavaScript. Here's why you should learn it,245,32,3400,2024-01-15 10:30:00
+2,2,7,10 UI Design Principles Every Designer Should Know,Good design is invisible. Here are the fundamental principles that make great UI,189,28,2800,2024-01-16 14:20:00
+3,3,6,Best VS Code Extensions for 2024,Level up your coding workflow with these amazing VS Code extensions,312,45,4200,2024-01-17 09:15:00
+4,4,8,Hidden Gems in Tokyo,Discovering the secret spots that tourists rarely find. Tokyo beyond the guidebooks,567,89,8900,2024-01-18 11:45:00
+5,1,6,Understanding React Server Components,Server Components are changing how we build React apps. Here's everything you need to know,423,61,5600,2024-01-19 13:00:00
+6,5,9,The Art of Storytelling in the Digital Age,How technology is reshaping narrative and what it means for writers,198,24,2400,2024-01-20 15:30:00
+7,6,10,5-Minute Morning Workout Routine,Start your day right with this quick and effective workout routine,834,124,12300,2024-01-21 07:00:00
+8,7,11,Perfect Homemade Pasta Recipe,Learn to make authentic Italian pasta from scratch in your own kitchen,456,78,6700,2024-01-22 12:30:00
+9,8,12,Behind the Scenes: Recording My New Album,A glimpse into the creative process of making music,1234,198,18500,2024-01-23 16:45:00
+10,9,13,Top 10 Indie Games You Must Play,These hidden gems deserve your attention. Amazing indie games from 2024,678,92,9800,2024-01-24 14:00:00
+11,10,14,Creating Fantasy Art: My Process,From sketch to final illustration - a complete workflow breakdown,445,56,5900,2024-01-25 11:20:00
+12,2,7,Color Theory for Beginners,Understanding color psychology and how to use it in your designs,267,34,3600,2024-01-26 10:00:00
+13,11,6,Mastering Docker Containers,Complete guide to containerization for modern web development,389,52,5100,2024-01-27 09:30:00
+14,12,7,Minimalist Design Trends 2024,Less is more: exploring the beauty of minimalist aesthetics,421,63,6200,2024-01-28 14:45:00
+15,13,6,Python Data Science Tutorial,Analyzing datasets with pandas and matplotlib made easy,512,71,7300,2024-01-29 11:00:00
+16,14,11,Mediterranean Diet Cookbook,Delicious and healthy recipes from the Mediterranean region,623,94,8900,2024-01-30 13:20:00
+17,15,6,Building Scalable APIs with Node.js,Best practices for creating robust backend services,445,58,6100,2024-01-31 10:15:00
+18,16,7,Interior Design on a Budget,Transform your space without breaking the bank,534,82,7800,2024-02-01 15:40:00
+19,17,6,Digital Marketing Strategies 2024,Effective techniques to grow your online presence,398,47,5400,2024-02-02 12:00:00
+20,18,8,Wildlife Photography Tips,Capturing nature's beauty: techniques from a pro photographer,789,118,11200,2024-02-03 09:45:00
+21,19,6,Product Management Fundamentals,Essential skills every product manager needs to master,356,41,4800,2024-02-04 14:30:00
+22,20,9,Investment Basics for Beginners,Start building wealth with these simple investment strategies,672,99,9600,2024-02-05 11:10:00
+23,21,10,HIIT Training Complete Guide,High-intensity interval training for maximum results,891,134,13500,2024-02-06 07:30:00
+24,22,9,Classic Literature Must-Reads,Timeless books that shaped modern storytelling,423,59,6400,2024-02-07 13:50:00
+25,23,14,Video Editing Pro Tips,Level up your video production with these techniques,567,85,8200,2024-02-08 16:20:00
+26,24,9,Sustainable Living Guide,Practical ways to reduce your environmental footprint,734,112,10800,2024-02-09 10:40:00
+27,25,12,Electronic Music Production 101,Creating beats and melodies in your home studio,645,96,9300,2024-02-10 15:00:00
+28,26,9,Learning Languages Effectively,Polyglot secrets: how to learn any language faster,512,74,7600,2024-02-11 12:25:00
+29,27,6,Mobile App Development Guide,Building iOS and Android apps from scratch,489,68,7100,2024-02-12 09:55:00
+30,28,8,Luxury Travel Destinations 2024,Experience the world's most exclusive locations,1123,189,16700,2024-02-13 14:15:00
+31,29,10,Football Coaching Techniques,Advanced strategies to improve team performance,567,82,8400,2024-02-14 11:30:00
+32,30,8,Wedding Photography Masterclass,Capturing perfect moments on the big day,678,101,9800,2024-02-15 16:45:00
+33,31,6,Blockchain Development Tutorial,Building decentralized applications with smart contracts,423,61,6700,2024-02-16 13:10:00
+34,32,10,Yoga for Stress Relief,Finding peace through mindful movement and breathing,892,128,12900,2024-02-17 08:20:00
+35,33,8,Street Photography Techniques,Capturing authentic urban moments with your camera,745,109,10500,2024-02-18 15:35:00
+36,34,11,French Pastry Techniques,Master the art of creating delicate pastries,589,87,8700,2024-02-19 10:50:00
+37,35,9,Teaching History Creatively,Making history engaging for modern students,334,45,4900,2024-02-20 14:05:00
+38,36,10,Dog Training Fundamentals,Positive reinforcement techniques that really work,612,91,9100,2024-02-21 12:40:00
+39,37,7,Logo Design Best Practices,Creating memorable brand identities that stand out,723,107,10300,2024-02-22 09:15:00
+40,38,7,Watch Collecting Guide,Understanding luxury timepieces and investment value,856,126,12100,2024-02-23 15:50:00
+41,39,8,Survival Skills Everyone Should Know,Essential outdoor survival techniques for any situation,967,145,13800,2024-02-24 11:25:00
+42,40,7,Makeup Tutorials for Beginners,Step-by-step guides to perfect your makeup routine,1234,187,17500,2024-02-25 08:40:00
+43,41,9,Marine Conservation Efforts,Protecting our oceans for future generations,534,78,7900,2024-02-26 14:20:00
+44,42,12,Latin Dance History and Styles,Exploring the rich cultural heritage of Latin dance,678,98,9400,2024-02-27 10:35:00
+45,43,11,Wine Tasting for Beginners,Developing your palate and understanding wine regions,589,86,8600,2024-02-28 16:00:00
+46,44,7,Sustainable Architecture Design,Building eco-friendly structures for the future,712,104,10100,2024-03-01 13:15:00
+47,45,11,Coffee Roasting at Home,From green beans to perfect espresso in your kitchen,623,93,9000,2024-03-02 09:45:00
+48,46,9,Educational Technology Trends,How tech is transforming modern classrooms,445,64,6800,2024-03-03 15:30:00
+49,47,6,Cybersecurity Best Practices,Protecting yourself and your business from threats,891,132,12600,2024-03-04 12:00:00
+50,48,7,Vintage Fashion Styling Tips,Creating unique looks with thrifted pieces,567,84,8300,2024-03-05 10:20:00
+51,49,9,Real Estate Investment Guide,Building wealth through property investment strategies,734,108,10400,2024-03-06 14:55:00
+52,50,9,Amateur Astronomy Handbook,Exploring the night sky with basic equipment,823,121,11700,2024-03-07 11:40:00
+53,1,6,Advanced TypeScript Patterns,Deep dive into advanced type system features,456,67,7200,2024-03-08 09:25:00
+54,2,7,UX Research Methods,Understanding user needs through effective research,512,76,7800,2024-03-09 15:10:00
+55,3,6,Git Workflow Best Practices,Mastering version control for team collaboration,378,54,6100,2024-03-10 12:35:00

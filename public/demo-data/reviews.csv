@@ -1,0 +1,56 @@
+review_id,product_id,user_id,rating,title,comment,helpful_count,verified_purchase,created_at
+1,1,1,5,Great wireless mouse!,Very responsive and comfortable for long hours of work.,15,true,2024-01-25
+2,4,2,5,Best mechanical keyboard,The tactile feedback is perfect! Worth every penny.,23,true,2024-01-26
+3,14,3,5,Amazing sound quality,These headphones are incredible. Clear bass and treble.,45,true,2024-01-27
+4,7,4,4,Good running shoes,Comfortable but sizing runs a bit small. Order half size up.,12,true,2024-01-28
+5,3,1,5,Sturdy laptop stand,Great for ergonomics. My neck pain is gone!,18,true,2024-01-29
+6,10,5,5,Perfect backpack,Lots of pockets and very durable. Love it!,20,true,2024-01-30
+7,14,6,4,Good but not great,Sound quality is good but battery life could be better.,8,true,2024-01-31
+8,12,7,5,Couldn't put it down,This book is absolutely captivating. Highly recommend!,30,true,2024-02-01
+9,8,8,4,Nice yoga mat,Good quality but a bit thin for my liking.,10,true,2024-02-02
+10,5,9,5,Beautiful desk lamp,Adjustable brightness is perfect. Love the design!,16,true,2024-02-03
+11,2,10,4,Good USB-C cable,Fast charging and durable. Good value for money.,9,true,2024-02-04
+12,11,2,5,Stylish sunglasses,Excellent UV protection and comfortable fit.,14,true,2024-02-05
+13,16,11,5,Smartwatch is amazing,Tracks everything perfectly. Battery lasts 3 days!,28,true,2024-02-06
+14,19,12,5,Best Bluetooth speaker,Sound quality is incredible for the price. Very portable.,35,true,2024-02-07
+15,20,13,5,Fast external SSD,Transfer speeds are lightning fast. Highly recommended!,42,true,2024-02-08
+16,22,14,4,Nice throw pillows,Good quality fabric but colors slightly different from photo.,11,true,2024-02-09
+17,25,15,5,Beautiful area rug,Transforms the room. Soft and well-made.,19,true,2024-02-10
+18,26,16,5,Excellent dumbbell set,Perfect weight distribution. Great for home workouts.,24,true,2024-02-11
+19,28,17,5,Camping tent is solid,Easy to set up and weatherproof. Perfect for family trips.,31,true,2024-02-12
+20,29,18,4,Good hiking boots,Comfortable and durable but break-in period needed.,17,true,2024-02-13
+21,32,19,5,Luxury wristwatch,Elegant design and keeps perfect time. Worth the investment.,26,true,2024-02-14
+22,33,20,4,Nice handbag,Good quality leather but slightly smaller than expected.,13,true,2024-02-15
+23,36,21,5,Great mystery novel,Plot twists kept me guessing. Couldn't stop reading!,38,true,2024-02-16
+24,38,22,5,Informative biography,Well-written and inspiring. Learned so much!,22,true,2024-02-17
+25,41,23,5,Perfect gaming mouse,RGB lighting and programmable buttons are awesome!,33,true,2024-02-18
+26,42,24,5,Excellent monitor,4K display is stunning. Great for work and gaming.,47,true,2024-02-19
+27,43,25,4,Useful USB hub,Works well but gets a bit warm during heavy use.,14,true,2024-02-20
+28,45,26,5,Cute plant pot,Perfect size and drainage is excellent.,16,false,2024-02-21
+29,46,27,5,Great tennis racket,Good power and control. Improved my game significantly!,29,true,2024-02-22
+30,47,28,4,Quality soccer ball,Good bounce and durability but slightly heavy.,12,true,2024-02-23
+31,48,29,5,Excellent baseball glove,Leather quality is top-notch. Broke in nicely.,21,true,2024-02-24
+32,49,30,4,Stylish crossbody bag,Love the design but strap could be more comfortable.,15,true,2024-02-25
+33,1,31,5,Mouse is fantastic,Wireless connection is stable. Battery lasts forever!,11,false,2024-02-26
+34,4,32,5,Keyboard for life,Switches are incredibly satisfying. Best purchase ever!,34,true,2024-02-27
+35,7,33,5,Running shoes rock,Perfect cushioning and support. Great for marathons!,27,true,2024-02-28
+36,14,34,4,Good headphones,Noise cancellation works well but ear cups get warm.,18,true,2024-03-01
+37,16,35,5,Smartwatch perfection,Fitness tracking is accurate. Love all the features!,39,true,2024-03-02
+38,18,36,4,Decent webcam,Image quality is good in good lighting. Works well.,13,true,2024-03-03
+39,19,37,5,Speaker is powerful,Bass is incredible! Perfect for outdoor parties.,41,true,2024-03-04
+40,20,38,5,SSD is lightning fast,Boot time reduced significantly. Best upgrade ever!,36,true,2024-03-05
+41,25,39,5,Rug is gorgeous,Colors are vibrant and it's very soft. Love it!,23,true,2024-03-06
+42,26,40,4,Good dumbbells,Solid construction but rubber coating has slight smell.,16,true,2024-03-07
+43,28,41,5,Tent is waterproof,Survived heavy rain perfectly. Very spacious inside!,32,true,2024-03-08
+44,29,42,5,Boots are excellent,Ankle support is great. Perfect for long hikes!,28,true,2024-03-09
+45,32,43,5,Watch is stunning,Receives compliments everywhere. Keeps perfect time!,25,true,2024-03-10
+46,36,44,5,Mystery novel wow,Best book I've read this year. Highly recommend!,44,false,2024-03-11
+47,41,45,4,Gaming mouse nice,DPI settings are perfect but software could be better.,19,true,2024-03-12
+48,42,46,5,Monitor is perfect,Colors are accurate. Great for photo editing work!,48,true,2024-03-13
+49,46,47,5,Tennis racket pro,Lightweight and powerful. Game changer for me!,30,true,2024-03-14
+50,50,48,4,Hat is stylish,Good quality material but slightly tight fit.,12,true,2024-03-15
+51,3,49,5,Laptop stand rocks,Adjustable height is perfect. Saves my posture!,20,true,2024-03-16
+52,10,50,5,Backpack is durable,Used daily for 3 months. Still looks brand new!,26,true,2024-03-17
+53,12,1,4,Good fiction book,Interesting story but pacing was slow at times.,14,false,2024-03-18
+54,21,2,5,Table is beautiful,Solid wood construction. Perfect bedside companion!,17,true,2024-03-19
+55,27,3,4,Resistance bands OK,Good quality but instructions could be clearer.,10,true,2024-03-20

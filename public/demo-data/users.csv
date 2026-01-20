@@ -1,0 +1,51 @@
+user_id,username,email,bio,followers_count,following_count,verified,created_at,city,country,membership_level,joined_at
+1,john_smith,john.smith@email.com,Full-stack developer passionate about web technologies,1250,340,true,2023-06-15 10:00:00,New York,USA,gold,2024-01-15
+2,emma_wilson,emma.wilson@email.com,UI/UX designer creating beautiful digital experiences,2100,180,true,2023-07-20 11:30:00,London,UK,silver,2024-02-20
+3,mike_brown,mike.brown@email.com,Tech blogger and content creator,890,420,false,2023-08-10 14:20:00,Toronto,Canada,platinum,2023-12-10
+4,sophia_garcia,sophia.garcia@email.com,Travel photographer exploring the world,3400,560,true,2023-05-05 09:15:00,Madrid,Spain,bronze,2024-03-05
+5,william_davis,william.davis@email.com,Freelance writer and storyteller,670,290,false,2023-09-12 16:45:00,Sydney,Australia,gold,2024-01-25
+6,olivia_martinez,olivia.martinez@email.com,Fitness coach helping people achieve their goals,1890,210,true,2023-04-18 08:30:00,Paris,France,silver,2024-02-14
+7,james_anderson,james.anderson@email.com,Professional chef sharing recipes and cooking tips,2560,380,true,2023-10-01 12:00:00,Berlin,Germany,bronze,2024-04-01
+8,isabella_taylor,isabella.taylor@email.com,Singer-songwriter and music producer,4200,890,true,2023-03-22 15:20:00,Tokyo,Japan,platinum,2023-11-20
+9,benjamin_thomas,benjamin.thomas@email.com,Gaming enthusiast and live streamer,3100,670,false,2023-11-08 13:45:00,Los Angeles,USA,gold,2024-01-30
+10,charlotte_lee,charlotte.lee@email.com,Digital artist creating fantasy illustrations,1540,430,false,2023-07-30 10:50:00,Singapore,Singapore,silver,2024-03-10
+11,liam_johnson,liam.johnson@email.com,Software engineer and open source contributor,980,250,false,2023-12-15 09:00:00,Chicago,USA,platinum,2024-05-15
+12,amelia_white,amelia.white@email.com,Fashion blogger and style consultant,2340,420,true,2024-01-20 11:30:00,Manchester,UK,gold,2024-04-22
+13,noah_harris,noah.harris@email.com,Data scientist and AI enthusiast,1120,310,false,2024-02-10 14:45:00,Vancouver,Canada,silver,2024-06-08
+14,ava_martin,ava.martin@email.com,Food photographer and recipe developer,1890,380,true,2024-01-05 10:15:00,Barcelona,Spain,bronze,2024-05-30
+15,ethan_thompson,ethan.thompson@email.com,Entrepreneur and startup advisor,3200,580,true,2023-11-20 13:30:00,Melbourne,Australia,platinum,2024-03-18
+16,mia_robinson,mia.robinson@email.com,Interior designer and home decor enthusiast,1650,290,false,2024-02-28 15:00:00,Lyon,France,gold,2024-07-12
+17,lucas_walker,lucas.walker@email.com,Marketing strategist and brand consultant,890,210,false,2024-03-12 09:45:00,Munich,Germany,silver,2024-06-25
+18,harper_hall,harper.hall@email.com,Nature photographer and environmental activist,2780,640,true,2023-10-05 11:20:00,Osaka,Japan,bronze,2024-08-05
+19,alexander_allen,alexander.allen@email.com,Product manager and tech reviewer,1430,350,false,2024-01-18 14:10:00,San Francisco,USA,platinum,2024-07-20
+20,evelyn_young,evelyn.young@email.com,Financial advisor and investment blogger,2100,410,true,2023-09-22 10:30:00,Hong Kong,Hong Kong,gold,2024-08-15
+21,daniel_king,daniel.king@email.com,Fitness trainer and nutrition coach,3450,720,true,2023-08-15 08:00:00,Boston,USA,silver,2024-09-01
+22,abigail_wright,abigail.wright@email.com,Book reviewer and literary critic,1290,380,false,2024-04-05 12:45:00,Dublin,Ireland,bronze,2024-08-28
+23,matthew_lopez,matthew.lopez@email.com,Videographer and film editor,1870,440,true,2023-12-01 15:30:00,Mexico City,Mexico,gold,2024-09-10
+24,emily_hill,emily.hill@email.com,Sustainable living advocate and blogger,2230,520,true,2024-02-14 09:15:00,Amsterdam,Netherlands,platinum,2024-09-22
+25,logan_scott,logan.scott@email.com,Music producer and DJ,3890,890,true,2023-07-10 16:45:00,Stockholm,Sweden,silver,2024-10-05
+26,sofia_green,sofia.green@email.com,Language teacher and polyglot,1560,330,false,2024-03-20 11:00:00,Rome,Italy,bronze,2024-10-12
+27,jackson_adams,jackson.adams@email.com,Mobile app developer and tech entrepreneur,2140,490,true,2023-11-30 13:20:00,Seoul,South Korea,gold,2024-10-20
+28,aria_baker,aria.baker@email.com,Luxury travel blogger and hotel reviewer,4320,950,true,2023-06-25 10:40:00,Dubai,UAE,platinum,2024-11-03
+29,sebastian_nelson,sebastian.nelson@email.com,Sports analyst and football coach,2890,670,true,2023-10-12 14:00:00,Miami,USA,silver,2024-11-15
+30,grace_carter,grace.carter@email.com,Wedding photographer and event planner,1980,420,false,2024-01-30 09:30:00,Brussels,Belgium,gold,2024-11-28
+31,aiden_mitchell,aiden.mitchell@email.com,Cryptocurrency trader and blockchain developer,1670,390,false,2024-04-15 11:45:00,Vienna,Austria,bronze,2024-12-05
+32,chloe_perez,chloe.perez@email.com,Yoga instructor and wellness coach,3120,680,true,2023-09-05 08:15:00,Lisbon,Portugal,platinum,2024-12-18
+33,jack_roberts,jack.roberts@email.com,Street photographer and visual storyteller,2450,560,true,2023-12-20 15:50:00,Copenhagen,Denmark,gold,2025-01-08
+34,lily_turner,lily.turner@email.com,Pastry chef and baking instructor,1830,400,false,2024-02-25 10:20:00,Warsaw,Poland,silver,2025-01-22
+35,henry_phillips,henry.phillips@email.com,History teacher and educational content creator,990,240,false,2024-05-10 13:35:00,Athens,Greece,bronze,2025-02-03
+36,zoe_campbell,zoe.campbell@email.com,Pet trainer and animal behaviorist,1740,380,true,2024-01-12 09:50:00,Prague,Czech Republic,gold,2025-02-14
+37,owen_parker,owen.parker@email.com,Graphic designer and brand identity specialist,2580,620,true,2023-08-28 12:10:00,Budapest,Hungary,platinum,2025-03-01
+38,luna_evans,luna.evans@email.com,Watch collector and luxury goods reviewer,3670,810,true,2023-11-15 14:25:00,Zurich,Switzerland,silver,2025-03-18
+39,wyatt_edwards,wyatt.edwards@email.com,Outdoor adventure guide and survival expert,2920,690,true,2023-10-20 11:40:00,Oslo,Norway,gold,2025-04-05
+40,scarlett_collins,scarlett.collins@email.com,Beauty vlogger and makeup artist,4890,1020,true,2023-07-05 10:05:00,Helsinki,Finland,bronze,2025-04-20
+41,leo_stewart,leo.stewart@email.com,Marine biologist and ocean conservation advocate,1450,340,false,2024-03-08 13:55:00,Auckland,New Zealand,platinum,2025-05-10
+42,bella_sanchez,bella.sanchez@email.com,Latin dance instructor and choreographer,2370,550,true,2023-12-28 09:25:00,Buenos Aires,Argentina,gold,2025-05-25
+43,elijah_morris,elijah.morris@email.com,Wine sommelier and restaurant critic,1890,430,false,2024-04-18 15:40:00,Santiago,Chile,silver,2025-06-08
+44,stella_rogers,stella.rogers@email.com,Architect and sustainable design consultant,2140,480,true,2024-02-05 11:15:00,Lima,Peru,bronze,2025-06-22
+45,oliver_reed,oliver.reed@email.com,Coffee roaster and cafe owner,1620,360,false,2024-05-22 10:30:00,Bogota,Colombia,gold,2025-07-05
+46,hazel_cook,hazel.cook@email.com,Elementary school teacher and education blogger,1230,290,false,2024-01-25 14:20:00,Montreal,Canada,platinum,2025-07-18
+47,mason_morgan,mason.morgan@email.com,Cybersecurity expert and ethical hacker,2890,650,true,2023-09-18 12:45:00,Seattle,USA,silver,2025-08-02
+48,violet_bell,violet.bell@email.com,Vintage fashion curator and thrift shopping guide,1780,410,false,2024-03-30 09:10:00,Portland,USA,gold,2025-08-15
+49,grayson_murphy,grayson.murphy@email.com,Real estate investor and property consultant,2340,520,true,2024-02-12 11:35:00,Austin,USA,bronze,2025-09-01
+50,aurora_bailey,aurora.bailey@email.com,Astronomy enthusiast and science communicator,3120,710,true,2023-10-30 13:00:00,Denver,USA,platinum,2025-09-20
