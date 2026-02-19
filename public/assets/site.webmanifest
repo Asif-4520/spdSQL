@@ -1,0 +1,68 @@
+{
+    "name": "spdSQL — SQL Playground & Runner",
+    "short_name": "spdSQL",
+    "description": "Free online SQL playground and runner. Execute SQL queries in your browser with DuckDB. Import CSV, JSON, Excel files and practice SQL.",
+    "start_url": "/?source=pwa",
+    "scope": "/",
+    "display": "standalone",
+    "background_color": "#0f172a",
+    "theme_color": "#6366f1",
+    "lang": "en",
+    "categories": [
+        "developer",
+        "education",
+        "productivity",
+        "database",
+        "utilities"
+    ],
+    "icons": [
+        {
+            "src": "/assets/light/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "src": "/assets/light/android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "src": "/assets/light/android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "maskable"
+        }
+    ],
+    "screenshots": [
+        {
+            "src": "/screenshot/Desktop.png",
+            "sizes": "1922x944",
+            "type": "image/png",
+            "form_factor": "wide",
+            "label": "SQL editor and query runner"
+        },
+        {
+            "src": "/screenshot/mobile.png",
+            "sizes": "828x1792",
+            "type": "image/png",
+            "form_factor": "narrow",
+            "label": "Results view on mobile"
+        }
+    ],
+    "shortcuts": [
+        {
+            "name": "SQL Playground",
+            "short_name": "Playground",
+            "description": "Open SQL editor",
+            "url": "/app",
+            "icons": [
+                {
+                    "src": "/assets/light/android-chrome-192x192.png",
+                    "sizes": "192x192"
+                }
+            ]
+        }
+    ]
+}

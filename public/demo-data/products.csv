@@ -1,0 +1,51 @@
+product_id,name,category_id,category_name,price,stock,rating,created_at
+1,Wireless Mouse,1,Electronics,29.99,150,4.5,2024-01-10 10:00:00
+2,USB-C Cable,1,Electronics,12.99,300,4.2,2024-01-11 11:00:00
+3,Laptop Stand,1,Electronics,49.99,80,4.7,2024-01-12 09:30:00
+4,Mechanical Keyboard,1,Electronics,89.99,60,4.8,2024-01-13 14:20:00
+5,Desk Lamp,2,Home & Living,34.99,120,4.4,2024-01-14 10:15:00
+6,Coffee Mug,2,Home & Living,15.99,200,4.3,2024-01-15 11:45:00
+7,Running Shoes,3,Sports & Outdoors,79.99,90,4.6,2024-01-16 13:00:00
+8,Yoga Mat,3,Sports & Outdoors,24.99,150,4.5,2024-01-17 09:00:00
+9,Water Bottle,3,Sports & Outdoors,19.99,180,4.4,2024-01-18 10:30:00
+10,Backpack,4,Fashion,59.99,70,4.7,2024-01-19 11:20:00
+11,Sunglasses,4,Fashion,39.99,100,4.5,2024-01-20 12:00:00
+12,Fiction Book,5,Books,14.99,250,4.8,2024-01-21 10:00:00
+13,Cookbook,5,Books,22.99,180,4.6,2024-01-22 11:30:00
+14,Headphones,1,Electronics,129.99,50,4.9,2024-01-23 14:00:00
+15,Phone Case,1,Electronics,19.99,220,4.3,2024-01-24 15:30:00
+16,Smart Watch,1,Electronics,199.99,45,4.8,2024-02-01 09:00:00
+17,Tablet Stand,1,Electronics,35.99,95,4.4,2024-02-05 10:30:00
+18,Webcam HD,1,Electronics,79.99,65,4.6,2024-02-10 11:00:00
+19,Bluetooth Speaker,1,Electronics,59.99,110,4.7,2024-02-15 13:20:00
+20,External SSD 1TB,1,Electronics,149.99,55,4.9,2024-02-20 14:45:00
+21,Bedside Table,2,Home & Living,89.99,40,4.5,2024-02-25 09:15:00
+22,Throw Pillow Set,2,Home & Living,29.99,130,4.3,2024-03-01 10:00:00
+23,Wall Clock,2,Home & Living,24.99,160,4.4,2024-03-05 11:30:00
+24,Storage Basket,2,Home & Living,18.99,145,4.2,2024-03-10 12:00:00
+25,Area Rug 5x7,2,Home & Living,129.99,35,4.6,2024-03-15 13:45:00
+26,Dumbbell Set,3,Sports & Outdoors,89.99,55,4.7,2024-03-20 09:00:00
+27,Resistance Bands,3,Sports & Outdoors,19.99,175,4.5,2024-03-25 10:30:00
+28,Camping Tent,3,Sports & Outdoors,149.99,30,4.8,2024-04-01 11:00:00
+29,Hiking Boots,3,Sports & Outdoors,119.99,60,4.6,2024-04-05 12:30:00
+30,Bicycle Helmet,3,Sports & Outdoors,49.99,85,4.4,2024-04-10 13:00:00
+31,Leather Wallet,4,Fashion,34.99,120,4.5,2024-04-15 09:15:00
+32,Wristwatch,4,Fashion,159.99,42,4.7,2024-04-20 10:45:00
+33,Handbag,4,Fashion,79.99,68,4.6,2024-04-25 11:30:00
+34,Belt,4,Fashion,24.99,155,4.3,2024-05-01 12:00:00
+35,Scarf,4,Fashion,19.99,190,4.4,2024-05-05 13:20:00
+36,Mystery Novel,5,Books,16.99,210,4.7,2024-05-10 09:00:00
+37,Science Textbook,5,Books,49.99,95,4.5,2024-05-15 10:30:00
+38,Biography,5,Books,18.99,165,4.6,2024-05-20 11:00:00
+39,Travel Guide,5,Books,21.99,140,4.4,2024-05-25 12:30:00
+40,Children's Book,5,Books,12.99,225,4.8,2024-06-01 13:00:00
+41,Gaming Mouse,1,Electronics,69.99,75,4.8,2024-06-05 09:15:00
+42,Monitor 27 inch,1,Electronics,299.99,28,4.9,2024-06-10 10:00:00
+43,USB Hub,1,Electronics,24.99,140,4.3,2024-06-15 11:30:00
+44,Desk Organizer,2,Home & Living,16.99,185,4.2,2024-06-20 12:00:00
+45,Plant Pot,2,Home & Living,14.99,200,4.5,2024-06-25 13:20:00
+46,Tennis Racket,3,Sports & Outdoors,89.99,50,4.6,2024-07-01 09:00:00
+47,Soccer Ball,3,Sports & Outdoors,29.99,125,4.5,2024-07-05 10:30:00
+48,Baseball Glove,3,Sports & Outdoors,59.99,72,4.7,2024-07-10 11:00:00
+49,Crossbody Bag,4,Fashion,44.99,88,4.4,2024-07-15 12:30:00
+50,Hat,4,Fashion,22.99,145,4.3,2024-07-20 13:00:00

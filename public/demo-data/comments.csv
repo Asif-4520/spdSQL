@@ -1,0 +1,56 @@
+comment_id,post_id,user_id,parent_comment_id,content,likes_count,created_at
+1,1,2,NULL,Great article! TypeScript has been a game-changer for our team.,12,2024-01-15 11:30:00
+2,1,3,1,Totally agree! The type safety alone is worth it.,5,2024-01-15 12:45:00
+3,1,5,NULL,Thanks for this! Just started learning TypeScript last week.,8,2024-01-15 14:20:00
+4,2,1,NULL,These principles are fundamental. Every designer should know them!,15,2024-01-16 15:30:00
+5,2,6,NULL,Bookmarked! Will share this with my design team.,7,2024-01-16 16:45:00
+6,3,4,NULL,VS Code is amazing! Thanks for the extension recommendations.,23,2024-01-17 10:00:00
+7,3,7,6,Which one is your favorite? I love the GitLens extension.,9,2024-01-17 11:15:00
+8,4,8,NULL,Tokyo is on my bucket list! These spots look incredible.,34,2024-01-18 13:00:00
+9,4,9,NULL,I've been to some of these places. Your photos are stunning!,18,2024-01-18 14:30:00
+10,5,3,NULL,Server Components were confusing at first but this explains it well!,29,2024-01-19 14:00:00
+11,5,2,10,Same here! This article cleared up a lot of confusion.,11,2024-01-19 15:20:00
+12,6,10,NULL,Beautiful perspective on storytelling. Very inspiring!,16,2024-01-20 16:45:00
+13,7,5,NULL,Just did this workout. Feeling energized! Thanks!,45,2024-01-21 08:30:00
+14,8,1,NULL,Can't wait to try this recipe this weekend!,21,2024-01-22 13:45:00
+15,9,4,NULL,Your music is incredible! Can't wait for the full album.,67,2024-01-23 18:00:00
+16,10,6,NULL,These indie games are gems! Thanks for sharing.,42,2024-01-24 15:30:00
+17,11,7,NULL,Love your art style! Tutorial is very helpful.,38,2024-01-25 12:45:00
+18,12,8,NULL,Color theory explained perfectly. Shared with my class!,24,2024-01-26 11:20:00
+19,13,9,NULL,Docker tutorial is exactly what I needed. Thank you!,31,2024-01-27 10:15:00
+20,14,10,NULL,Minimalism done right. Beautiful examples!,19,2024-01-28 15:50:00
+21,15,11,NULL,Python pandas is powerful. Great tutorial!,27,2024-01-29 12:00:00
+22,16,12,NULL,Made the chickpea salad recipe. Delicious!,33,2024-01-30 14:30:00
+23,17,13,NULL,API design principles are spot on. Bookmarked!,22,2024-01-31 11:45:00
+24,18,14,NULL,Budget-friendly tips that actually work. Thanks!,28,2024-02-01 16:20:00
+25,19,15,NULL,Digital marketing insights are valuable. Implementing now!,25,2024-02-02 13:10:00
+26,20,16,NULL,Wildlife photography tips are gold. Trying this weekend!,41,2024-02-03 10:55:00
+27,21,17,NULL,Product management guide is comprehensive. Love it!,18,2024-02-04 15:40:00
+28,22,18,NULL,Investment basics explained clearly. Very helpful!,36,2024-02-05 12:25:00
+29,23,19,NULL,HIIT training guide is amazing. Starting tomorrow!,52,2024-02-06 08:45:00
+30,24,20,NULL,Classic literature list is perfect. Reading them all!,29,2024-02-07 14:55:00
+31,25,21,NULL,Video editing tips leveled up my content. Thank you!,35,2024-02-08 17:15:00
+32,26,22,NULL,Sustainable living guide is practical and inspiring!,44,2024-02-09 11:35:00
+33,27,23,NULL,Music production tutorial is exactly what I needed!,38,2024-02-10 16:05:00
+34,28,24,NULL,Language learning tips work! Already seeing progress.,31,2024-02-11 13:40:00
+35,29,25,NULL,App development guide is comprehensive. Thanks!,26,2024-02-12 10:50:00
+36,30,26,NULL,Luxury travel destinations look stunning!,58,2024-02-13 15:25:00
+37,31,27,NULL,Football coaching techniques are professional. Great insights!,33,2024-02-14 12:35:00
+38,32,28,NULL,Wedding photography tips are invaluable. Saved!,40,2024-02-15 17:50:00
+39,33,29,NULL,Blockchain tutorial cleared up many concepts. Thanks!,29,2024-02-16 14:15:00
+40,34,30,NULL,Yoga for stress relief works wonders. Feeling better!,47,2024-02-17 09:30:00
+41,35,31,NULL,Street photography techniques are brilliant!,39,2024-02-18 16:40:00
+42,36,32,NULL,Pastry recipe turned out perfect! Thank you!,34,2024-02-19 11:55:00
+43,37,33,NULL,History teaching methods are creative. Love them!,21,2024-02-20 15:10:00
+44,38,34,NULL,Dog training tips work! My dog is so much better behaved.,43,2024-02-21 13:45:00
+45,39,35,NULL,Logo design principles are fundamental. Excellent post!,37,2024-02-22 10:20:00
+46,40,36,NULL,Watch collecting guide is informative. Great read!,45,2024-02-23 16:55:00
+47,41,37,NULL,Survival skills are essential. Everyone should know these!,51,2024-02-24 12:30:00
+48,42,38,NULL,Makeup tutorials are easy to follow. Love your style!,62,2024-02-25 09:45:00
+49,43,39,NULL,Marine conservation is important. Thanks for spreading awareness!,32,2024-02-26 15:25:00
+50,44,40,NULL,Latin dance history is fascinating. Great article!,36,2024-02-27 11:40:00
+51,45,41,NULL,Wine tasting guide is perfect for beginners. Thanks!,30,2024-02-28 17:05:00
+52,46,42,NULL,Sustainable architecture is the future. Inspiring work!,38,2024-03-01 14:20:00
+53,47,43,NULL,Coffee roasting tutorial is detailed. Trying this!,33,2024-03-02 10:50:00
+54,48,44,NULL,EdTech trends are interesting. Education is evolving!,27,2024-03-03 16:35:00
+55,49,45,NULL,Cybersecurity tips are crucial. Implementing immediately!,46,2024-03-04 13:05:00

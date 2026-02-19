@@ -1,0 +1,21 @@
+category_id,name,parent_id,description,item_count
+1,Electronics,NULL,Electronic devices and accessories,5
+2,Home & Living,NULL,Home decor and daily living items,2
+3,Sports & Outdoors,NULL,Sports equipment and outdoor gear,3
+4,Fashion,NULL,Clothing and fashion accessories,2
+5,Books,NULL,Books and publications,2
+6,Technology,NULL,Tech articles and tutorials,3
+7,Design,NULL,UI/UX design and visual arts,2
+8,Travel,NULL,Travel guides and experiences,1
+9,Writing,NULL,Writing and storytelling content,1
+10,Fitness,NULL,Fitness and wellness tips,1
+11,Food,NULL,Recipes and cooking,1
+12,Music,NULL,Music and audio production,1
+13,Gaming,NULL,Video games and gaming culture,1
+14,Art,NULL,Digital and traditional art,1
+15,Computers,1,Desktop computers and laptops,0
+16,Mobile Devices,1,Smartphones and tablets,0
+17,Audio,1,Headphones and speakers,0
+18,Furniture,2,Home furniture items,0
+19,Kitchen,2,Kitchen appliances and tools,0
+20,Programming,6,Programming languages and frameworks,0
